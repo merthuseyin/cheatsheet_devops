@@ -51,10 +51,15 @@
     ansible-galaxy install geerlingguy.nginx
     
 ansible-playbook <YAML>                   # Run on all hosts defined
+    
 ansible-playbook <YAML> -f 10             # Run 10 hosts parallel
+    
 ansible-playbook <YAML> --verbose         # Verbose on successful tasks
+    
 ansible-playbook <YAML> -C                # Test run
+    
 ansible-playbook <YAML> -C -D             # Dry run
+    
 ansible-playbook <YAML> -l <host>         # Run on single host
     
 ansible-playbook --syntax-check <YAML>    # syntax check
